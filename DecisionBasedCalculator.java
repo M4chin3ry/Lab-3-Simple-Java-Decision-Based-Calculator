@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class DecisionBasedCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String continueChoice = "";  // ✅ Initialize here to avoid compiler error
+        String continueChoice = "";  
         System.out.println("Welcome to the Java Calculator!");
         do {
             System.out.print("Enter an operation (+, -, *, /, or exit): ");
